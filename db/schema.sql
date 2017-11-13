@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS Articles_db;
+CREATE DATABASE Articles_db;

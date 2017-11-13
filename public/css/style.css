@@ -1,0 +1,665 @@
+html {
+  position: relative;
+  min-height: 100%;
+    /*overflow-x: hidden;*/
+}
+body {
+  /* Margin bottom by footer height */
+  background-color: #f2f2f2;
+  margin: 0px 0px 100px; /* bottom = footer height */
+}
+
+/*Nav Bar*/
+.navbar{
+  height: 60px;
+
+}
+.navbar-collapse{
+  color: #fff !important;
+  font-size: 1.5rem;
+  margin-top: 3px;
+  font-style: normal;
+  font-family: "Karla", "Helvetica Neue", helvetica, arial, sans-serif;
+}
+
+.container-fluid{
+  position: relative;
+  margin-top: 3px !important;
+}
+
+.admin-nav{
+  position: relative;
+  left: -7.5%;
+  margin-top: -5px;
+}
+
+
+/**/
+/*Main Jumbotron*/
+.main-jumbotron{
+  height: 650px;
+  border-bottom: 5px solid #202120;
+  background-image: url(../images/usnews.jpg);
+  background-position: 0 -205px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.header-container{
+  position: relative;
+    top: 38%;
+    left: 13%;
+  color: #fefffc;
+}
+
+.headline{
+  font-family: 'Candal', sans-serif;
+  font-weight: bold !important;
+  font-size: 68px !important;
+  color: #1F618D;
+
+}
+
+.tagline{
+  font-family: 'Quicksand', cursive;
+  font-size: 24px !important;
+  width: 63%;
+  text-align: center;
+  color: #1F618D;
+
+}
+
+/*Services Section*/
+.book-now{
+  line-height: 45px;
+  width: 250px;
+  color: #fff;
+  background-color: #657539;
+  font-size: 18px;
+  padding: 5px;
+}
+
+.book-now:hover{
+  background-color: #53602d;
+  color: #fff;
+  font-size: 18px;
+}
+
+.book-now:active{
+  background-color: #414c23 !important;
+  color: #fff !important;
+  font-size: 18px !important;
+}
+
+.submitReq{
+  color: #fff;
+  background-color: #657539;
+}
+
+.submitReq:hover{
+  background-color: #53602d;
+  color: #fff;
+}
+
+.submitReq:active{
+  background-color: #414c23 !important;
+  color: #fff !important;
+}
+
+
+
+}
+
+.jumbotron{
+  margin-bottom: 0px !important;
+}
+
+.modal-label{
+  position: inherit !important;
+  top: inherit !important;
+  padding-left: 0 !important;
+}
+
+.services-jumbotron{
+  background-color: transparent !important;
+  background-image: url(../images/absurditytile.png);
+  background-repeat: repeat;
+
+}
+
+.report-jumbotron{
+  background-color: transparent !important;
+  background-image: url(../images/absurditytile.png);
+  background-repeat: repeat;
+  position: relative;
+  left:10px;
+}
+.service-header{
+  text-align: center;
+  margin-top: 30px;
+  padding-bottom: 15px;
+  font-size: 48px;
+  font-family: 'Candal', sans-serif;
+  font-weight: bold;
+}
+
+.expect-jumbotron{
+  background-color: transparent !important;
+}
+
+.featurette-heading{
+  font-family: 'Poppins', sans-serif;
+}
+
+.lead{
+  font-family: 'Quicksand', sans-serif;
+}
+
+.button-divider{
+  padding-top: 50px;
+}
+.line{
+    position: relative;
+    top: 40px;
+    display:block;
+    border:none;
+    color:white;
+    height:1px;
+    background:black;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#202120), to(#f2f2f2));
+}
+
+.expect-divider{
+  position: relative;
+  top: 20px;
+}
+
+.expect-header{
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: bold !important;
+}
+
+.icon{
+  padding: 20px;
+  position: relative;
+  top: 3px;
+}
+
+.service-feat{
+  position: relative;
+  top: 25px;
+}
+
+/*Reviews Section*/
+.reviews-jumbotron{
+  height: 500px;
+  background-color: transparent !important;
+  background-image: url(../images/absurditytile.png);
+  background-repeat: repeat;
+  position: relative;
+  top: 40px;
+}
+
+.carousel-caption{
+  color: #000000;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.reviews-header{
+  text-align: center;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: bold;
+}
+
+.first-slide, .second-slide, .third-slide{
+  height: 350px !important;
+  width: 400px !important;
+}
+
+.fa-quote-left {
+    position: relative;
+    top: -222px;
+    font-size: 46px;
+}
+
+.fa-quote-right{
+  float: right;
+    position: relative;
+    top: -222px;
+  font-size: 46px;
+}
+
+/*Modal CSS*/
+.modal-title{
+  text-align: center;
+  font-family: 'Quicksand', cursive;
+  font-weight: bold;
+}
+
+/*Carousel Section*/
+.carousel-section{
+  position: relative;
+    top: 50px;
+}
+.thumb{
+  height: 500px;
+  width: 500px;
+}
+
+.carousel-jumbotron{
+  background-color: transparent !important;
+}
+
+#search-filter{
+  height: 220px !important;
+}
+
+#search-widget{
+  position: relative;
+  top: 20px;
+  height: 1100px;
+}
+
+#search-fields{
+  position: relative;
+  left: 264px;
+}
+
+#thumbnail-slider {
+    margin:0 auto; /*center-aligned*/
+    width:120%;
+    max-width:1500px;
+    padding:0;
+    box-sizing:border-box;
+    position:relative;
+    left: -104px;
+    -webkit-user-select: none;
+    user-select:none;
+}
+
+#thumbnail-slider div.inner {
+    /*the followings should not be changed */
+    position:relative;
+    overflow:hidden;
+    padding:0;
+    margin:0;
+    top: 10px;
+    /*width: 500px;*/
+}
+
+#thumbnail-slider div.inner ul {
+    /*the followings should not be changed */
+    white-space:nowrap;
+    position:relative;
+    left:0; top:0;
+    list-style:none;
+    font-size:0;
+    padding:0;
+    margin:0;
+    float:left!important;
+    width:auto!important;
+}
+
+#thumbnail-slider ul li {
+    display:inline-block;
+    margin-top:20px;
+    margin-bottom:90px;
+    margin-left:-30px; margin-right:-30px; /* Spacing between thumbs*/
+    -webkit-transform:scale(0.9);
+    transform:scale(0.9); /*Note: The scale down will increase the spacing between slides. You can set negative margins as did above to roll back the spacing. */
+    -webkit-transition:-webkit-transform 0.5s;
+    transition:transform 0.5s;
+    box-sizing:content-box;
+    text-align:center;
+    vertical-align:middle;
+    padding:0;
+    position:relative;
+    list-style:none;
+    backface-visibility:hidden;
+
+}
+.dd{
+
+}
+#thumbnail-slider ul li.active {
+    background-color:transparent;
+}
+
+#thumbnail-slider .thumb {
+    width:100%;
+    height: 100%;
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center center;
+    display:block;
+    position:absolute;
+    font-size:0;
+    cursor:inherit;
+}
+
+#thumbnail-slider-pause-play {display:none;} /*.pause*/
+#thumbnail-slider-prev, #thumbnail-slider-next {display:none;}
+
+/*Admin Page Styling*/
+.admin-jumbo{
+  margin-bottom: 70px !important;
+  height: 470px;
+  background: url(../images/woodkeys.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.admin-cont{
+  width: 93% !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.admin-header{
+  /*text-align: center;*/
+  font-family: 'Russo One', sans-serif;
+  color: #fff !important;
+}
+
+.admin-text{
+  color: #fff;
+  font-family: 'Quicksand', cursive;
+  width: 60%;
+}
+
+.admin-page{
+  position: relative;
+  top: 60px;
+ }
+
+.admin-panel {
+    margin-left: 0px !important;
+    margin-top: 0px !important;
+    border-radius: 3px !important;
+    background-color: #fff !important;
+    height: 350px;
+    margin-bottom: 20px;
+  }
+
+.incoming-panel{
+  background-image: url(../images/cargear.jpeg);
+  background-size: 100%;
+}
+
+.view-panel{
+background-image: url(../images/door.jpeg);
+background-size: 100%;
+}
+
+.todo-panel{
+  background-image: url(../images/lockdoor.jpeg);
+  background-size: 100%;
+}
+.admin-title {
+    font-size: 20px !important;
+    font-family: 'Quicksand' !important;
+    text-align: center !important;
+    /*margin-left: 0px !important;*/
+  }
+
+.accept-job-panel {
+  font-family: 'Candal',cursive;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.accept-body{
+  position: relative;
+  top: 21%;
+}
+
+.admin-btn{
+    line-height: 32px;
+    width: 140px;
+    color: #fff;
+    background-color: #657539;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.admin-btn:hover{
+    background-color: #53602d;
+    color: #fff;
+    font-size: 18px;
+}
+
+.admin-btn:active{
+    background-color: #414c23 !important;
+    color: #fff !important;
+    font-size: 18px !important;
+}
+
+#heading {
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Candal';
+}
+
+.to-do {
+  margin-top: 10px;
+}
+
+.check-button{
+  position: relative;
+  top: 3px;
+  left: -7px;
+}
+
+.check-btn {
+  width: 100%;
+  height: 30px;
+  background-color: #FF9999;
+  text-align: center;
+  border-style: none;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 0 5px #AAA;
+  box-shadow: 0 0 5px #AAA;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 10px;
+}
+
+.checkmark {
+  height: 24px;
+}
+
+.check-btn {
+  color: #555;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.add {
+  background-color: white;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  -webkit-box-shadow: 0 0 5px #AAA;
+  box-shadow: 0 0 5px #AAA;
+  border-radius: 6px;
+  border-style: none;
+  margin-top: 10px;
+  float: left;
+}
+
+.add:active {
+  background-color: #EEE;
+}
+
+.plus {
+  height: 16px;
+  color: #0099FF;
+}
+
+input[type=text] {
+  width: 100%;
+  height: 30px;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 0 5px #AAA;
+  box-shadow: 0 0 5px #AAA;
+  border: none;
+  padding-left: 5px;
+  font-family: 'Raleway', sans-serif;
+}
+.input-row {
+  margin-top: 10px;
+}
+
+#input-form {
+  float: right;
+  width: calc(100% - 40px);
+}
+
+/*Accept Page Styling*/
+.job-panel{
+  background-color: #fff !important;
+  width: 60% !important;
+  margin: auto !important;
+  margin-top: 55px !important;
+  margin-bottom: 40px !important;
+}
+
+.accept-row{
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.accept-form{
+text-align: center !important;
+}
+
+.accepting-btn{
+  position: relative;
+  top: -10.5px;
+}
+
+.ac-btn{
+    color: #fff;
+    background-color: #657539;
+}
+
+.ac-btn:hover{
+    background-color: #53602d;
+    color: #fff;
+}
+
+.ac-btn:active{
+    background-color: #414c23 !important;
+    color: #fff !important;
+}
+
+.accept-table-whole{
+  border: .5px solid #c5d6ba;
+}
+
+.table-head-accept{
+  background-color: #bad1a7;
+}
+
+.table-accept{
+  background-color: #e9f2e3;
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td,
+.table-striped>tbody>tr:nth-child(odd)>th {
+   background-color: #fff;
+ }
+
+/*Sticky Footer*/
+.footer {
+  position: absolute;
+    left: 0px;
+    top: 100%;
+    bottom: 0px;
+    height: 134px;
+    width: 100%;
+  background-color: #414c23;
+}
+
+.second-footer-container{
+  position: absolute;
+    top: 97%;
+  height: 90px;
+  line-height: 90px;
+  background-color: #657539;
+  width: 100%;
+}
+
+.footer-text{
+  text-align: center;
+  position: relative;
+  top: 30px;
+  font-size: 20px;
+  font-family: 'Nixie One', cursive;
+  color: #fff;
+}
+
+.icon-container{
+  position: relative;
+  top: -20px;
+}
+
+.address{
+  width: 157px;
+  font-family: 'Quicksand',cursive;
+}
+
+.fa-map-marker{
+  position: relative;
+  top: -12px;
+  text-align: center;
+  font-size: 19px;
+  color: #fff;
+}
+
+.fa-envelope{
+  position: relative;
+  top: -2px;
+  float: right;
+  text-align: center;
+  font-size: 17px;
+  color: #fff;
+}
+
+.text-muted-two{
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Nixie One', cursive;
+  color: #fff;
+  line-height: 80px;
+
+}
+
+
+
+
+
+
+.pagination>.active>a{
+  background-color: #414c23 ! important ;
+}
+.dataTables_empty{
+  color: black;
+}
+
+
+
+#real {
+    border:2px solid red;
+    height: 200px;
+    font-size: 10px;
+    margin-bottom:10px;
+
+}
+
+th {
+  display: none;
+   padding-right: 180px;
+}
